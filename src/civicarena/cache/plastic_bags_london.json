@@ -1,0 +1,346 @@
+{
+  "topic": "Should we ban plastic bags?",
+  "location": "London",
+  "personas": [
+    {
+      "name": "Priya Sharma",
+      "age": 42,
+      "occupation": "Corner shop owner",
+      "background": "Runs a family grocery in Hackney for 12 years. Immigrated from Gujarat. Thin margins, loyal regulars.",
+      "core_values": ["family", "hard work", "community"],
+      "communication_style": "pragmatic",
+      "initial_stance": "against",
+      "location_context": "Her shop on Mare Street already struggles with rising costs"
+    },
+    {
+      "name": "James Whitfield",
+      "age": 29,
+      "occupation": "Marine conservation researcher",
+      "background": "PhD candidate at UCL studying microplastics in the Thames estuary. Grew up in Cornwall surfing.",
+      "core_values": ["environmental protection", "scientific evidence", "sustainability"],
+      "communication_style": "passionate",
+      "initial_stance": "strongly_for",
+      "location_context": "Collects water samples weekly from Thames barrier to Southend"
+    },
+    {
+      "name": "Dorothy \"Dot\" Pemberton",
+      "age": 71,
+      "occupation": "Retired headteacher",
+      "background": "Taught at a Lewisham comprehensive for 35 years. Active in local parish council. Remembers life before plastic bags.",
+      "core_values": ["education", "tradition", "civic duty"],
+      "communication_style": "measured",
+      "initial_stance": "for",
+      "location_context": "Walks to Lewisham Market three times a week with her trolley"
+    },
+    {
+      "name": "Kai Morgan",
+      "age": 24,
+      "occupation": "Deliveroo rider and design student",
+      "background": "Part-time at Goldsmiths, delivers food across South London evenings and weekends. Lives in a flatshare in Peckham.",
+      "core_values": ["convenience", "fairness", "creativity"],
+      "communication_style": "direct",
+      "initial_stance": "neutral",
+      "location_context": "Uses plastic bags constantly for food deliveries"
+    },
+    {
+      "name": "Councillor Amara Osei",
+      "age": 55,
+      "occupation": "Southwark Council member",
+      "background": "Elected three terms running. Chairs the environment committee. Former NHS administrator.",
+      "core_values": ["public service", "pragmatism", "equity"],
+      "communication_style": "diplomatic",
+      "initial_stance": "for",
+      "location_context": "Oversees waste management budget for 300,000 residents"
+    }
+  ],
+  "worldviews": [
+    {
+      "persona_name": "Priya Sharma",
+      "key_facts": [
+        "The UK's 5p carrier bag charge cut usage by 95% since 2015",
+        "Paper bags cost retailers 5-8x more than plastic ones",
+        "Small retailers were exempted from the initial charge but included from 2021",
+        "Biodegradable alternatives often need industrial composting facilities"
+      ],
+      "supporting_evidence": ["Small business margins in grocery average 2-3%", "Customers often forget reusable bags and blame the shop"],
+      "concerns": ["Cost of alternatives falls on small shops", "Customers may shop at supermarkets instead"],
+      "sources": [
+        {"title": "Carrier bag charge impact assessment", "url": "https://www.gov.uk/government/publications/carrier-bag-charge", "snippet": "Single-use carrier bag usage dropped by 95% in main retailers."},
+        {"title": "Federation of Small Businesses survey", "url": "https://www.fsb.org.uk/resources", "snippet": "Small retailers report 12% increase in packaging costs since bag charge expansion."}
+      ],
+      "stance_reasoning": "The charge already worked. A full ban would push costs onto shops like mine with no help from the government. We need support, not more rules."
+    },
+    {
+      "persona_name": "James Whitfield",
+      "key_facts": [
+        "8 million tonnes of plastic enter oceans annually",
+        "Thames cleanup removed 300 tonnes of waste in 2023, 40% was plastic bags and film",
+        "Plastic bags take 500-1000 years to decompose in marine environments",
+        "Over 100 countries have enacted some form of plastic bag regulation"
+      ],
+      "supporting_evidence": ["Marine species in the Thames have tripled since cleanup efforts", "Countries with full bans show 80% reduction in bag-related litter within 2 years"],
+      "concerns": ["Half-measures like charges still leave billions of bags in circulation", "Microplastic contamination is irreversible"],
+      "sources": [
+        {"title": "Thames microplastic study 2024", "url": "https://www.ucl.ac.uk/research/thames-plastics", "snippet": "Microplastic concentrations in Thames sediment remain 3x above safe thresholds."},
+        {"title": "UNEP Single-Use Plastics Report", "url": "https://www.unep.org/resources/report/single-use-plastics", "snippet": "127 countries have adopted legislation to regulate plastic bags."}
+      ],
+      "stance_reasoning": "The 5p charge was a start, but we're still producing 1.5 billion single-use bags a year in the UK. The Thames data is unambiguous — we need a full ban, with proper transition support for businesses."
+    },
+    {
+      "persona_name": "Dorothy \"Dot\" Pemberton",
+      "key_facts": [
+        "Before plastic bags became common in the 1980s, shoppers used baskets and paper",
+        "Lewisham generates 130,000 tonnes of waste annually",
+        "Reusable bag schemes at market stalls have 70% adoption rate",
+        "Older residents are more likely to bring their own bags"
+      ],
+      "supporting_evidence": ["Community bag-share programmes in Lewisham reduced litter complaints by 30%", "Market traders report customers prefer paper wrapping for fresh produce"],
+      "concerns": ["Enforcement needs to be fair — some people genuinely forget", "Don't want to see another rule that punishes pensioners on fixed incomes"],
+      "sources": [
+        {"title": "Lewisham waste reduction strategy", "url": "https://www.lewisham.gov.uk/waste-strategy", "snippet": "Borough targets 50% recycling rate by 2026."},
+        {"title": "Age UK shopping habits survey", "url": "https://www.ageuk.org.uk/research", "snippet": "78% of over-65s regularly bring reusable bags compared to 45% of under-30s."}
+      ],
+      "stance_reasoning": "We managed perfectly well without plastic bags for decades. A ban makes sense, but it needs to come with free reusable alternatives at the point of sale. No one should be caught out."
+    },
+    {
+      "persona_name": "Kai Morgan",
+      "key_facts": [
+        "Food delivery services use an estimated 2 billion plastic bags annually in the UK",
+        "Deliveroo and UberEats have no bag-free delivery options",
+        "Compostable bags cost 3x more and often tear during delivery",
+        "Gig workers are not reimbursed for packaging costs"
+      ],
+      "supporting_evidence": ["Riders already earn below minimum wage when accounting for expenses", "No practical alternative exists for hot food delivery in rain"],
+      "concerns": ["Who pays for alternatives — riders, restaurants, or platforms?", "Biodegradable bags fall apart in wet weather"],
+      "sources": [
+        {"title": "Gig economy packaging study", "url": "https://www.sustainweb.org/delivery-packaging", "snippet": "Food delivery generates 1.2kg of packaging waste per order on average."},
+        {"title": "Deliveroo sustainability report", "url": "https://corporate.deliveroo.co.uk/sustainability", "snippet": "Piloting paper bag alternatives in 200 partner restaurants."}
+      ],
+      "stance_reasoning": "I'm not against the environment, but no one's thought about how deliveries actually work. Ban plastic bags for shopping, sure, but there needs to be a real alternative for food delivery first."
+    },
+    {
+      "persona_name": "Councillor Amara Osei",
+      "key_facts": [
+        "Southwark spends £3.2M annually on street cleaning, 25% related to bag litter",
+        "The bag charge generates revenue that funds environmental projects",
+        "Full bans in other London boroughs have shown 60% litter reduction",
+        "Business transition grants in Wales helped 90% of small retailers switch materials"
+      ],
+      "supporting_evidence": ["Council budgets are stretched — reducing litter saves money", "Public consultations show 72% support for stronger measures"],
+      "concerns": ["Enforcement requires funding we don't have", "Can't alienate local businesses before the election"],
+      "sources": [
+        {"title": "Southwark environment committee report", "url": "https://www.southwark.gov.uk/environment/reports", "snippet": "Street cleaning costs rose 8% year-on-year, driven by single-use packaging."},
+        {"title": "Welsh Government bag ban evaluation", "url": "https://www.gov.wales/plastic-bag-ban-evaluation", "snippet": "Transition grants of £500-2000 per business achieved 90% compliance."}
+      ],
+      "stance_reasoning": "The data supports a ban, but implementation matters more than the headline. We need transition funding for small businesses and a phased rollout. I've seen too many good policies fail because they were rushed."
+    }
+  ],
+  "rounds": [
+    {
+      "round_number": 1,
+      "round_name": "Opening Statements",
+      "statements": [
+        {
+          "persona_name": "Priya Sharma",
+          "round_number": 1,
+          "round_name": "Opening Statements",
+          "content": "Look, I care about the environment — I've got grandchildren. But I've already switched to charging 10p per bag, and my costs went up 15%. Paper bags tear, customers complain, and the big supermarkets can absorb costs I can't. The 5p charge already cut usage by 95%. Why ban something that's already working? If you ban plastic bags tomorrow, I need to know who's covering the £2,000 it'll cost me to switch everything over. The FSB survey shows I'm not alone — small retailers are drowning in new regulations.",
+          "sources_cited": ["gov.uk carrier bag charge data", "FSB survey"],
+          "stance": "against"
+        },
+        {
+          "persona_name": "James Whitfield",
+          "round_number": 1,
+          "round_name": "Opening Statements",
+          "content": "I pull plastic bags out of the Thames every week. The charge reduced usage in shops, yes — but 1.5 billion single-use bags are still produced annually in the UK. They're in our rivers, our soil, our food chain. My research shows microplastic levels in Thames sediment are three times above safe thresholds. A hundred and twenty-seven countries have regulated bags. It's not radical — it's overdue. The charge was a half-measure. We need a full ban with a proper transition period.",
+          "sources_cited": ["UCL Thames microplastic study", "UNEP report"],
+          "stance": "strongly_for"
+        },
+        {
+          "persona_name": "Dorothy \"Dot\" Pemberton",
+          "round_number": 1,
+          "round_name": "Opening Statements",
+          "content": "I taught for 35 years, and I'll tell you — we managed fine before plastic bags existed. My generation used baskets and paper. The market traders in Lewisham already wrap produce in paper, and 78% of pensioners bring their own bags. A ban is sensible, but it must come with free reusable bags at the till for the first year. Don't punish people who forget — help them change.",
+          "sources_cited": ["Age UK survey", "Lewisham waste strategy"],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Kai Morgan",
+          "round_number": 1,
+          "round_name": "Opening Statements",
+          "content": "Everyone's talking about shopping bags. Nobody's talking about delivery. I do 30 Deliveroo runs a night and every order goes in a plastic bag. Compostable ones tear in the rain and cost three times more. The platforms don't reimburse us. Ban plastic bags in shops, fine — but food delivery needs a carve-out until someone invents a bag that doesn't fall apart when it's wet. Otherwise you're just pushing costs onto gig workers who already earn below minimum wage.",
+          "sources_cited": ["Sustainweb delivery packaging study"],
+          "stance": "neutral"
+        },
+        {
+          "persona_name": "Councillor Amara Osei",
+          "round_number": 1,
+          "round_name": "Opening Statements",
+          "content": "Southwark spends £3.2 million a year on street cleaning — a quarter of that is bag litter. Public consultations show 72% of residents support stronger action. I support a ban, but I've watched too many policies fail from poor execution. Wales offered transition grants of £500 to £2,000 per business and hit 90% compliance. We should do the same: phased rollout, business support, and proper enforcement funding. The goal is behaviour change, not punishment.",
+          "sources_cited": ["Southwark environment report", "Welsh Government evaluation"],
+          "stance": "for"
+        }
+      ]
+    },
+    {
+      "round_number": 2,
+      "round_name": "Cross-Examination",
+      "statements": [
+        {
+          "persona_name": "Priya Sharma",
+          "round_number": 2,
+          "round_name": "Cross-Examination",
+          "content": "James, you say 1.5 billion bags. But how many of those come from small shops versus supermarkets and online retail? My shop uses maybe 200 bags a week. Tesco uses that in an hour. Councillor Osei, you mention Welsh grants — £2,000 doesn't cover a full switch for a shop my size when you count new suppliers, storage, and customer complaints. Have you actually costed this for London?",
+          "sources_cited": [],
+          "stance": "against"
+        },
+        {
+          "persona_name": "James Whitfield",
+          "round_number": 2,
+          "round_name": "Cross-Examination",
+          "content": "Priya, you're right that supermarkets are the bigger source — that's exactly why the ban needs to be universal. If only small shops are covered, it's unfair. But Kai raises a real problem I hadn't fully considered. Delivery packaging is a blind spot. That said, Deliveroo's own sustainability report shows they're piloting paper alternatives in 200 restaurants. The tech exists — the platforms just need to be pushed.",
+          "sources_cited": ["Deliveroo sustainability report"],
+          "stance": "strongly_for"
+        },
+        {
+          "persona_name": "Dorothy \"Dot\" Pemberton",
+          "round_number": 2,
+          "round_name": "Cross-Examination",
+          "content": "Kai makes a fair point about delivery — I hadn't thought of that. But Priya, the £2,000 transition cost you mention — wouldn't that pay for itself within two years if you're not buying plastic bags at all? Dot's maths, not a PhD, but it seems like short-term pain for long-term savings. And Councillor Osei, can the council provide reusable bags in bulk to small shops at cost?",
+          "sources_cited": [],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Kai Morgan",
+          "round_number": 2,
+          "round_name": "Cross-Examination",
+          "content": "James, I appreciate you acknowledging the delivery problem. But 200 pilot restaurants out of 30,000 in London isn't a solution — it's a press release. Councillor Osei, if you're phasing this in, can food delivery get a 2-year exemption while alternatives are developed? Otherwise you're banning something with no replacement.",
+          "sources_cited": [],
+          "stance": "neutral"
+        },
+        {
+          "persona_name": "Councillor Amara Osei",
+          "round_number": 2,
+          "round_name": "Cross-Examination",
+          "content": "Priya, fair challenge on the costing. Welsh figures need London-adjusting — I'd estimate £3,000-5,000 per business here. That's fundable from the existing litter budget savings. Kai, a temporary food delivery exemption is reasonable — say 18 months — but the platforms, not riders, should bear the cost of switching. Dot's point about long-term savings is right. Priya, your annual bag spend is probably £1,500. Within two years you're saving money.",
+          "sources_cited": ["Southwark environment report"],
+          "stance": "for"
+        }
+      ]
+    },
+    {
+      "round_number": 3,
+      "round_name": "Common Ground",
+      "statements": [
+        {
+          "persona_name": "Priya Sharma",
+          "round_number": 3,
+          "round_name": "Common Ground",
+          "content": "Alright, I'll admit Dot's maths might work out. If my bag spend is £1,500 a year, switching to paper at £3,000 upfront could break even by year three. But only if the council helps with the upfront cost. Councillor Osei's phased approach with grants is something I could live with. I still think the charge was enough, but if a ban is coming, I need the transition support to be real, not just promised.",
+          "sources_cited": [],
+          "stance": "against"
+        },
+        {
+          "persona_name": "James Whitfield",
+          "round_number": 3,
+          "round_name": "Cross-Examination",
+          "content": "We all seem to agree the ban should be phased, not overnight. Kai's delivery exemption makes sense — I'd rather get 90% of bags banned with a temporary carve-out than delay the whole thing. Priya's concern about costs is valid. If we're asking small shops to change, public funding should back it. The environmental evidence is clear, but the implementation has to be fair.",
+          "sources_cited": [],
+          "stance": "strongly_for"
+        },
+        {
+          "persona_name": "Dorothy \"Dot\" Pemberton",
+          "round_number": 3,
+          "round_name": "Common Ground",
+          "content": "I think we're closer than it seemed. Everyone agrees plastic bags are a problem. Priya wants support to switch. Kai wants time for delivery alternatives. James wants urgency. The compromise writes itself: ban with a 6-month grace period for retail, 18 months for food delivery, and council grants for small businesses. Free reusable bags at markets for the first year. Everyone's heard.",
+          "sources_cited": [],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Kai Morgan",
+          "round_number": 3,
+          "round_name": "Common Ground",
+          "content": "Dot just said it better than I could. I'm not anti-ban — I'm anti-ban-without-a-plan. If delivery gets 18 months and the platforms have to fund the switch, not riders, I can support this. James is right that the science is clear. I just needed someone to acknowledge that gig workers exist in this conversation.",
+          "sources_cited": [],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Councillor Amara Osei",
+          "round_number": 3,
+          "round_name": "Common Ground",
+          "content": "Dot's proposal is essentially what I'd bring to committee. Phased ban: retail in 6 months, delivery platforms in 18. Transition grants funded from litter budget savings. Platforms like Deliveroo and UberEats fund rider packaging. Free community bag distribution for the first year. This gives us urgency without chaos. Priya, I'll personally ensure small business grants are front-loaded, not backlogged.",
+          "sources_cited": [],
+          "stance": "for"
+        }
+      ]
+    },
+    {
+      "round_number": 4,
+      "round_name": "Final Positions",
+      "statements": [
+        {
+          "persona_name": "Priya Sharma",
+          "round_number": 4,
+          "round_name": "Final Positions",
+          "content": "I came in against this, and honestly, I'm still nervous. But the phased approach with real grants changes things. If I get £3,000 upfront and 6 months to adjust, I can make it work. My customers will grumble for a month and then bring their bags. I've moved from against to neutral — I won't fight it if the support is guaranteed in writing. My vote: neutral.",
+          "sources_cited": [],
+          "stance": "neutral"
+        },
+        {
+          "persona_name": "James Whitfield",
+          "round_number": 4,
+          "round_name": "Final Positions",
+          "content": "The delivery exemption isn't ideal — 18 months is a lot of bags in the Thames. But Kai convinced me that banning without alternatives would just create a black market in cheap bags. A phased ban with teeth is better than a perfect ban that never passes. The science demands action; the politics demands compromise. I'm still strongly for. My vote: strongly_for.",
+          "sources_cited": [],
+          "stance": "strongly_for"
+        },
+        {
+          "persona_name": "Dorothy \"Dot\" Pemberton",
+          "round_number": 4,
+          "round_name": "Final Positions",
+          "content": "This is how democracy should work — people with different lives finding a way forward together. The phased ban with support for Priya's shop and Kai's deliveries is fair and practical. We don't need to agree on everything to agree on enough. My vote: for.",
+          "sources_cited": [],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Kai Morgan",
+          "round_number": 4,
+          "round_name": "Final Positions",
+          "content": "I walked in thinking this was just another policy that ignores people like me. The 18-month delivery window and making platforms pay changed my mind. I'll vote for — as long as the delivery exemption is actually enforced and doesn't quietly disappear. My vote: for.",
+          "sources_cited": [],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Councillor Amara Osei",
+          "round_number": 4,
+          "round_name": "Final Positions",
+          "content": "Four out of five participants moved toward support, including someone who started against. That's the case I'll bring to committee. Phased ban, transition funding, platform accountability. The evidence supports it, the public wants it, and this panel shows it's possible to get broad agreement when you listen. My vote: for.",
+          "sources_cited": [],
+          "stance": "for"
+        }
+      ]
+    }
+  ],
+  "final_votes": {
+    "Priya Sharma": "neutral",
+    "James Whitfield": "strongly_for",
+    "Dorothy \"Dot\" Pemberton": "for",
+    "Kai Morgan": "for",
+    "Councillor Amara Osei": "for"
+  },
+  "dqi_score": {
+    "justification_level": 3,
+    "respect": 2,
+    "constructive_politics": 2,
+    "overall_quality": 9,
+    "summary": "Exceptional deliberation. All participants cited evidence, engaged directly with opposing arguments, and converged on a concrete compromise. Priya's stance shift from against to neutral demonstrated genuine persuasion through dialogue.",
+    "highlights": [
+      "Kai's delivery exemption argument introduced a practical concern no one else had considered",
+      "Dot synthesized everyone's positions into a workable proposal",
+      "Every participant cited specific data to support their claims"
+    ],
+    "concerns": [
+      "The 18-month delivery exemption could undermine the ban's environmental impact if not monitored"
+    ]
+  }
+}

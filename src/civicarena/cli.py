@@ -12,6 +12,7 @@ from rich.progress import Progress, SpinnerColumn, TextColumn
 from rich.table import Table
 from rich.text import Text
 
+from civicarena.cache import load_cached_result
 from civicarena.orchestrator import run_deliberation
 from civicarena.types import (
     DQIScore,
@@ -209,6 +210,7 @@ def _parse_args() -> argparse.Namespace:
     parser.add_argument("--api-key", help="API key")
     parser.add_argument("--no-stream", action="store_true", help="Disable streaming output")
     parser.add_argument("--verbose", "-v", action="store_true", help="Longer, more detailed responses")
+    parser.add_argument("--cached", action="store_true", help="Use cached results for demo topics (no API needed)")
     parser.add_argument("--demo", "-d", action="store_true", help="Select from demo topics")
     return parser.parse_args()
 
@@ -245,25 +247,90 @@ def main() -> None:
 
     callback = RichCallback(console)
 
-    async def _run() -> None:
-        result = await run_deliberation(
-            topic=topic,
-            location=location,
-            persona_count=args.agents,
-            config=config,
-            callback=callback,
-            stream=not args.no_stream,
-            verbose=args.verbose,
+    # Check for cached result
+    cached_result = load_cached_result(topic, location) if args.cached else None
+
+    if cached_result:
+        _replay_cached(cached_result, callback)
+    else:
+        async def _run() -> None:
+            result = await run_deliberation(
+                topic=topic,
+                location=location,
+                persona_count=args.agents,
+                config=config,
+                callback=callback,
+                stream=not args.no_stream,
+                verbose=args.verbose,
+            )
+
+            _print_final_votes(result.final_votes)
+
+            if result.dqi_score:
+                _print_dqi_score(result.dqi_score)
+
+            console.print()
+            console.print("[bold cyan]Deliberation complete.[/bold cyan]")
+
+        asyncio.run(_run())
+
+
+def _replay_cached(result: "DeliberationResult", callback: RichCallback) -> None:
+    """Replay a cached deliberation with Rich output."""
+    import time
+
+    from civicarena.types import DeliberationResult
+
+    console.print("[dim]Playing cached deliberation...[/dim]\n")
+
+    # Show personas
+    table = Table(title="Citizen Agents", show_header=True, header_style="bold cyan")
+    table.add_column("Name", style="bold")
+    table.add_column("Age", justify="center")
+    table.add_column("Occupation")
+    table.add_column("Stance", justify="center")
+    table.add_column("Style")
+
+    for p in result.personas:
+        stance_style = STANCE_COLORS.get(p.initial_stance, "white")
+        table.add_row(
+            p.name,
+            str(p.age),
+            p.occupation,
+            Text(STANCE_LABELS[p.initial_stance], style=stance_style),
+            p.communication_style,
         )
 
-        # Print final results
-        _print_final_votes(result.final_votes)
+    console.print(table)
 
-        if result.dqi_score:
-            _print_dqi_score(result.dqi_score)
+    # Show worldview summaries
+    console.print()
+    for wv in result.worldviews:
+        console.print(
+            f"  [dim]Researched worldview for[/dim] [bold]{wv.persona.name}[/bold] "
+            f"[dim]({len(wv.sources)} sources)[/dim]"
+        )
 
+    # Play rounds
+    for rnd in result.rounds:
         console.print()
-        console.print("[bold cyan]Deliberation complete.[/bold cyan]")
+        console.rule(f"[bold cyan]Round {rnd.round_number}: {rnd.round_name}[/bold cyan]")
+        console.print()
 
-    # Run the async deliberation
-    asyncio.run(_run())
+        for stmt in rnd.statements:
+            console.print(f"  [bold yellow]{stmt.persona_name}:[/bold yellow]")
+            # Simulate streaming with word-by-word output
+            words = stmt.content.split()
+            for i, word in enumerate(words):
+                console.print(word, end=" " if i < len(words) - 1 else "", highlight=False)
+                time.sleep(0.02)
+            console.print()
+            console.print()
+
+    _print_final_votes(result.final_votes)
+
+    if result.dqi_score:
+        _print_dqi_score(result.dqi_score)
+
+    console.print()
+    console.print("[bold cyan]Deliberation complete.[/bold cyan]")

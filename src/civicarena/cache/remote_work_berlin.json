@@ -1,0 +1,346 @@
+{
+  "topic": "Should remote work be a legal right?",
+  "location": "Berlin",
+  "personas": [
+    {
+      "name": "Klaus Richter",
+      "age": 57,
+      "occupation": "Manufacturing plant manager",
+      "background": "Manages a 200-person electronics assembly plant in Spandau. Can't run a factory floor remotely. Worried about a two-tier workforce.",
+      "core_values": ["fairness", "productivity", "team cohesion"],
+      "communication_style": "gruff",
+      "initial_stance": "strongly_against",
+      "location_context": "His plant workers can't work from home — a legal right would divide his workforce"
+    },
+    {
+      "name": "Lena Fischer",
+      "age": 33,
+      "occupation": "Software developer",
+      "background": "Works at a mid-size tech company in Kreuzberg. Moved to Brandenburg during COVID, commutes 2 days a week. Single parent of a 4-year-old.",
+      "core_values": ["flexibility", "work-life balance", "autonomy"],
+      "communication_style": "matter-of-fact",
+      "initial_stance": "strongly_for",
+      "location_context": "Saved €400/month and 10 hours/week by working remotely 3 days"
+    },
+    {
+      "name": "Dr. Markus Brandt",
+      "age": 45,
+      "occupation": "Labour economist at Humboldt University",
+      "background": "Researches future of work. Published on Germany's right-to-request-remote-work legislation. Advises the Bundestag labour committee.",
+      "core_values": ["evidence", "worker welfare", "institutional design"],
+      "communication_style": "academic",
+      "initial_stance": "for",
+      "location_context": "Studies Berlin's transformation into a remote-work hub post-COVID"
+    },
+    {
+      "name": "Yuki Tanaka",
+      "age": 29,
+      "occupation": "Café owner",
+      "background": "Runs a specialty coffee shop in Prenzlauer Berg. Business boomed during remote work era with laptop workers, then crashed when return-to-office mandates hit.",
+      "core_values": ["community", "entrepreneurship", "adaptability"],
+      "communication_style": "friendly",
+      "initial_stance": "for",
+      "location_context": "Her café's revenue correlates directly with neighbourhood remote work rates"
+    },
+    {
+      "name": "Petra Hoffmann",
+      "age": 51,
+      "occupation": "HR director at a financial services firm",
+      "background": "Manages workforce policy for 3,000 employees across Germany. Implemented hybrid work in 2021. Dealing with productivity tracking and culture challenges.",
+      "core_values": ["organisational effectiveness", "talent retention", "compliance"],
+      "communication_style": "professional",
+      "initial_stance": "against",
+      "location_context": "Her firm's Berlin office has 30% desk utilisation but full lease costs"
+    }
+  ],
+  "worldviews": [
+    {
+      "persona_name": "Klaus Richter",
+      "key_facts": [
+        "Only 40% of German jobs can be done remotely",
+        "Manufacturing workers report feeling undervalued when office colleagues work from home",
+        "The Netherlands' flexible working law created legal disputes between employers and employees",
+        "Germany's Mobile Work Act proposal stalled in 2023 over employer pushback"
+      ],
+      "supporting_evidence": ["Factory absenteeism increased 15% at plants where office staff went remote", "A legal right without sector exceptions would be unenforceable in manufacturing"],
+      "concerns": ["Creates a legally privileged class of workers", "Who decides which roles qualify?"],
+      "sources": [
+        {"title": "IW Köln study on remote work eligibility", "url": "https://www.iwkoeln.de/remote-work", "snippet": "60% of German jobs require physical presence, with wide variation by sector."},
+        {"title": "Dutch Flexible Working Act evaluation", "url": "https://www.government.nl/flexible-working", "snippet": "Employment tribunals saw a 30% increase in flexible working disputes after the law passed."}
+      ],
+      "stance_reasoning": "My workers build things with their hands. They can't do that from a sofa in Brandenburg. A legal right to remote work tells them their jobs are second-class. Fix the commute, fix the childcare — don't create a law that only works for desk jobs."
+    },
+    {
+      "persona_name": "Lena Fischer",
+      "key_facts": [
+        "Remote workers save an average of €4,800/year on commuting in Berlin",
+        "Working mothers with remote options are 23% more likely to stay employed full-time",
+        "Productivity studies show remote workers are equally or more productive for knowledge work",
+        "Germany ranks below Netherlands, Finland, and Sweden in remote work rights"
+      ],
+      "supporting_evidence": ["My childcare costs dropped 40% when I could work from home 3 days", "My company's Kreuzberg office is half-empty anyway"],
+      "concerns": ["Without a legal right, employers can revoke remote work at will", "Women and carers disproportionately lose when remote work is discretionary"],
+      "sources": [
+        {"title": "Hans-Böckler-Stiftung remote work study", "url": "https://www.boeckler.de/remote-work", "snippet": "Remote workers report higher job satisfaction and equivalent productivity."},
+        {"title": "Destatis commuting data Berlin", "url": "https://www.destatis.de/commuting-berlin", "snippet": "Average Berlin commute is 39 minutes one-way, costing €200/month."}
+      ],
+      "stance_reasoning": "I'm a better developer and a better mother since going remote. My company gets the same code. My daughter gets a present parent. Without a legal right, my boss could pull this away tomorrow. That's not flexibility — it's precarity dressed up."
+    },
+    {
+      "persona_name": "Dr. Markus Brandt",
+      "key_facts": [
+        "The Netherlands has had a legal right to request flexible working since 2016",
+        "German court ruled employers must justify refusal of remote work requests",
+        "Remote work reduced Berlin CO2 emissions by an estimated 400,000 tonnes annually",
+        "Right-to-request models (vs. right-to-remote) give employers legitimate refusal grounds"
+      ],
+      "supporting_evidence": ["Right-to-request shifts the burden of proof to employers without mandating remote for all", "Countries with flexible working rights show no negative GDP impact"],
+      "concerns": ["A blanket right is impractical; a right-to-request is workable", "Need to prevent remote work from becoming a way to offshore jobs"],
+      "sources": [
+        {"title": "Brandt & Müller (2024), 'Remote Work Rights in Europe'", "url": "https://www.hu-berlin.de/labour-research", "snippet": "Right-to-request models achieved 70% remote work adoption without mandating it."},
+        {"title": "UBA Berlin emissions study", "url": "https://www.umweltbundesamt.de/berlin-emissions", "snippet": "Reduced commuting during COVID cut Berlin transport emissions by 18%."}
+      ],
+      "stance_reasoning": "The evidence supports a right-to-request, not a right-to-remote. The Dutch model works: employees request, employers must respond within a month with legitimate business reasons if refusing. It shifts the default without mandating the impossible."
+    },
+    {
+      "persona_name": "Yuki Tanaka",
+      "key_facts": [
+        "Berlin's neighbourhood cafés saw 35% revenue increase during peak remote work",
+        "Return-to-office mandates correlate with declining foot traffic in residential areas",
+        "Remote workers spend €150-300/month in their local neighbourhood economy",
+        "Co-working cafés are the fastest-growing hospitality segment in Berlin"
+      ],
+      "supporting_evidence": ["My revenue dropped 25% when three nearby companies mandated return-to-office", "Remote workers are my best customers — they stay 3 hours, buy 2-3 items"],
+      "concerns": ["Without remote work, residential neighbourhoods lose daytime economy", "Big offices benefit large chains, not local businesses"],
+      "sources": [
+        {"title": "IHK Berlin local economy report", "url": "https://www.ihk-berlin.de/local-economy", "snippet": "Neighbourhood businesses in residential areas saw sustained revenue growth from remote workers."},
+        {"title": "Tagesspiegel remote work impact", "url": "https://www.tagesspiegel.de/remote-work-berlin", "snippet": "Prenzlauer Berg and Friedrichshain reported highest daytime foot traffic increases."}
+      ],
+      "stance_reasoning": "When people work from home, they shop local, eat local, and build community. My café isn't just coffee — it's the third space. Remote work made my neighbourhood come alive during weekdays. Take that away and the streets go dead until 6pm again."
+    },
+    {
+      "persona_name": "Petra Hoffmann",
+      "key_facts": [
+        "Hybrid work reduced her firm's talent attrition by 20%",
+        "Office utilisation at 30% means €2M/year in wasted lease costs",
+        "Performance management is harder with remote teams — 40% of managers report difficulty",
+        "A legal right removes employer discretion to adjust policies as needs change"
+      ],
+      "supporting_evidence": ["We need flexibility to set remote policies by team, not a one-size-fits-all law", "Junior employees develop slower without in-person mentoring"],
+      "concerns": ["Legal obligations create compliance costs and litigation risk", "Can't innovate on workplace policy if the law freezes it"],
+      "sources": [
+        {"title": "McKinsey hybrid work survey Germany", "url": "https://www.mckinsey.com/hybrid-germany", "snippet": "Companies with structured hybrid policies report 20% lower attrition."},
+        {"title": "DGFP HR management survey", "url": "https://www.dgfp.de/remote-management", "snippet": "40% of managers report difficulty assessing performance of remote team members."}
+      ],
+      "stance_reasoning": "I support hybrid work — we implemented it voluntarily and it works. But a legal right takes away our ability to adjust. What if the team needs everyone in for a product launch? A right-to-request I could support. A blanket right would tie my hands."
+    }
+  ],
+  "rounds": [
+    {
+      "round_number": 1,
+      "round_name": "Opening Statements",
+      "statements": [
+        {
+          "persona_name": "Klaus Richter",
+          "round_number": 1,
+          "round_name": "Opening Statements",
+          "content": "Sixty percent of German jobs need you physically there. My assembly line doesn't run on Zoom. A legal right to remote work tells my 200 factory workers that their jobs don't count. And the Dutch experience shows these laws create more lawsuits than solutions — tribunal cases up 30%. Fix childcare, fix transport, but don't write a law that only helps people who sit at computers.",
+          "sources_cited": ["IW Köln study", "Dutch Flexible Working Act"],
+          "stance": "strongly_against"
+        },
+        {
+          "persona_name": "Lena Fischer",
+          "round_number": 1,
+          "round_name": "Opening Statements",
+          "content": "I write code. My company gets the same output whether I'm in Kreuzberg or Brandenburg. Since going remote three days a week, I save €400 a month and 10 hours commuting. I'm a better developer and my daughter has a parent who's actually present. Without a legal right, my employer can revoke this tomorrow. Twenty-three percent of working mothers drop to part-time because they can't make office hours work. That's a structural problem, not a lifestyle choice.",
+          "sources_cited": ["Hans-Böckler-Stiftung study", "Destatis commuting data"],
+          "stance": "strongly_for"
+        },
+        {
+          "persona_name": "Dr. Markus Brandt",
+          "round_number": 1,
+          "round_name": "Opening Statements",
+          "content": "The right framing matters. A right-to-remote is impractical — Klaus is correct about physical jobs. A right-to-request is workable. The Netherlands model: employee requests, employer responds within a month with legitimate reasons if refusing. Adoption reached 70% without mandating anything. It shifts the default from 'no unless you ask nicely' to 'yes unless there's a real business reason.' Germany's stalled Mobile Work Act should have taken this path.",
+          "sources_cited": ["Brandt & Müller (2024)", "Dutch model data"],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Yuki Tanaka",
+          "round_number": 1,
+          "round_name": "Opening Statements",
+          "content": "Remote work brought my neighbourhood to life. Weekday foot traffic up 35%, my revenue with it. When three companies nearby went back to office, I lost a quarter of my sales. Remote workers aren't just staying home — they're spending locally. €150-300 a month each in their neighbourhood. The economic argument isn't just about employers and employees. It's about whether our Kiez has a daytime economy or not.",
+          "sources_cited": ["IHK Berlin report"],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Petra Hoffmann",
+          "round_number": 1,
+          "round_name": "Opening Statements",
+          "content": "We do hybrid work. It cut attrition by 20%. But we designed it ourselves, by team, based on what works. A legal right removes that flexibility. What happens when a project needs the full team for two weeks? Do I apply for an exemption? Forty percent of managers already struggle with remote performance assessment. I'd support a right-to-request — Markus's model — but not a blanket right that ties HR's hands.",
+          "sources_cited": ["McKinsey hybrid survey", "DGFP survey"],
+          "stance": "against"
+        }
+      ]
+    },
+    {
+      "round_number": 2,
+      "round_name": "Cross-Examination",
+      "statements": [
+        {
+          "persona_name": "Klaus Richter",
+          "round_number": 2,
+          "round_name": "Cross-Examination",
+          "content": "Dr. Brandt, your right-to-request model — does it apply to my factory workers? Because if it only covers desk jobs, it's still a two-tier system. And Lena, I'm glad remote work suits you, but who mentors the junior developers? My best workers learned by standing next to experienced ones. You can't Slack your way to that.",
+          "sources_cited": [],
+          "stance": "strongly_against"
+        },
+        {
+          "persona_name": "Lena Fischer",
+          "round_number": 2,
+          "round_name": "Cross-Examination",
+          "content": "Klaus, I mentor two juniors — remotely. We pair-program three times a week. It works. Not for every job, but for mine, yes. Petra, you say a legal right removes flexibility, but right now my employer has all the flexibility and I have none. A right-to-request just balances it. And Dr. Brandt, if the employer can refuse with legitimate reasons, Klaus's factory workers aren't affected — physical presence is a legitimate reason.",
+          "sources_cited": [],
+          "stance": "strongly_for"
+        },
+        {
+          "persona_name": "Dr. Markus Brandt",
+          "round_number": 2,
+          "round_name": "Cross-Examination",
+          "content": "Klaus, right-to-request applies to everyone, but 'job requires physical presence' is a legitimate refusal reason. Your factory workers can request, you can refuse, no tribunal. The Dutch cases that spiked were mostly desk job disputes where employers refused without good reason — that's the system working. Petra, a right-to-request actually protects your flexibility — you just need to document your reasoning.",
+          "sources_cited": [],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Yuki Tanaka",
+          "round_number": 2,
+          "round_name": "Cross-Examination",
+          "content": "Klaus, I hear you about factory work. But Lena's point stands — for jobs that can go remote, why shouldn't workers have the right to ask? My café benefits either way: more remote work means more local customers. Petra, your hybrid model sounds great, but without a legal framework, companies that don't have an HR director like you just default to 'everyone back in.'",
+          "sources_cited": [],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Petra Hoffmann",
+          "round_number": 2,
+          "round_name": "Cross-Examination",
+          "content": "Dr. Brandt, if documenting refusal reasons is all that's required, that's manageable. My real worry was a blanket entitlement. Lena, fair point about power imbalance — not every company has a thoughtful hybrid policy. A right-to-request with clear employer obligations could set a floor without removing discretion. Klaus, your factory workers aren't affected if physical presence is a valid refusal reason. The two-tier concern is cultural, not legal.",
+          "sources_cited": [],
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "round_number": 3,
+      "round_name": "Common Ground",
+      "statements": [
+        {
+          "persona_name": "Klaus Richter",
+          "round_number": 3,
+          "round_name": "Common Ground",
+          "content": "Fine. If my factory workers can request and I can refuse because the job needs them here, and that's clear in the law, it's not the worst thing. Dr. Brandt's model doesn't actually change anything for manufacturing. My real concern was treating my workers as second-class. If the law applies equally and physical presence is a valid reason, the two-tier problem is smaller than I thought. I'm not enthusiastic, but I can stop fighting it.",
+          "sources_cited": [],
+          "stance": "against"
+        },
+        {
+          "persona_name": "Lena Fischer",
+          "round_number": 3,
+          "round_name": "Common Ground",
+          "content": "A right-to-request isn't everything I want, but it's the floor I need. Petra's right that good companies already do this. The law is for the rest. Klaus's concern about factory workers is real — the law needs to be clearly universal in application, even if outcomes differ by role. I can live with employers refusing for genuine business reasons. I just need the right to ask without risking my job.",
+          "sources_cited": [],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Dr. Markus Brandt",
+          "round_number": 3,
+          "round_name": "Common Ground",
+          "content": "We've essentially converged on the Dutch model with German characteristics. Right-to-request for all employees, employer responds within 4 weeks, refusal requires documented business justification, physical presence is valid grounds. Add an annual review clause so policies evolve with technology. This achieves 70% adoption without mandating the impossible. Klaus keeps his factory running, Lena keeps her flexibility.",
+          "sources_cited": [],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Yuki Tanaka",
+          "round_number": 3,
+          "round_name": "Common Ground",
+          "content": "The right-to-request means more people working in their neighbourhoods, which means more local economy. I don't need a mandate — I need a system where remote work is normal enough that my café stays full on Tuesdays. Klaus, if your workers get better commuting support as part of this, everyone benefits. Maybe the savings from reduced office space fund better public transit?",
+          "sources_cited": [],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Petra Hoffmann",
+          "round_number": 3,
+          "round_name": "Common Ground",
+          "content": "A right-to-request with documented refusal is what we already do informally. Making it law creates consistency across the market. My competitors who force everyone back to office are losing talent to us — a level playing field helps. I've moved from against to supporting the right-to-request model. My condition: the law must allow team-level flexibility for project-based needs, not lock in individual arrangements permanently.",
+          "sources_cited": [],
+          "stance": "for"
+        }
+      ]
+    },
+    {
+      "round_number": 4,
+      "round_name": "Final Positions",
+      "statements": [
+        {
+          "persona_name": "Klaus Richter",
+          "round_number": 4,
+          "round_name": "Final Positions",
+          "content": "I came in strongly against. A right-to-request with physical presence as valid grounds doesn't hurt my plant. I'm still not excited about more regulation, but Dr. Brandt showed it doesn't change anything for manufacturing. What I want is the law to explicitly acknowledge physical work has equal dignity. If that's in the preamble, I'll stop grumbling. My vote: against, but barely.",
+          "sources_cited": [],
+          "stance": "against"
+        },
+        {
+          "persona_name": "Lena Fischer",
+          "round_number": 4,
+          "round_name": "Final Positions",
+          "content": "Right-to-request with employer justification for refusal. It's not a blanket right, but it's the legal floor I need. My daughter and I both benefit. My company keeps getting good code. Klaus's factory keeps running. I wanted more, but this works. My vote: strongly_for.",
+          "sources_cited": [],
+          "stance": "strongly_for"
+        },
+        {
+          "persona_name": "Dr. Markus Brandt",
+          "round_number": 4,
+          "round_name": "Final Positions",
+          "content": "This panel designed the policy I've been recommending to the Bundestag. Right-to-request, documented refusal, annual review, sector-neutral application. The evidence supports it, the panel supports it, and the economic data shows no downside. My vote: for.",
+          "sources_cited": [],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Yuki Tanaka",
+          "round_number": 4,
+          "round_name": "Final Positions",
+          "content": "More remote work means more local economy. The right-to-request makes remote normal without forcing it. My neighbourhood benefits, my café benefits, and people like Lena get to live in their communities instead of just sleeping there. My vote: for.",
+          "sources_cited": [],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Petra Hoffmann",
+          "round_number": 4,
+          "round_name": "Final Positions",
+          "content": "I came in against a legal right and I'm leaving in support of a right-to-request. It formalises what good employers already do and pushes the rest to catch up. My firm benefits from the level playing field. The team-flexibility provision protects our ability to adjust. My vote: for.",
+          "sources_cited": [],
+          "stance": "for"
+        }
+      ]
+    }
+  ],
+  "final_votes": {
+    "Klaus Richter": "against",
+    "Lena Fischer": "strongly_for",
+    "Dr. Markus Brandt": "for",
+    "Yuki Tanaka": "for",
+    "Petra Hoffmann": "for"
+  },
+  "dqi_score": {
+    "justification_level": 3,
+    "respect": 2,
+    "constructive_politics": 2,
+    "overall_quality": 9,
+    "summary": "Highly productive deliberation that narrowed a broad question to a specific, implementable policy. The distinction between right-to-remote and right-to-request was the key insight. Even the strongest opponent acknowledged the final framework didn't harm his interests. Evidence-driven throughout.",
+    "highlights": [
+      "Dr. Brandt's right-to-request reframing dissolved the core objection",
+      "Klaus's two-tier concern forced the group to design an explicitly universal policy",
+      "Yuki's neighbourhood economy perspective added a dimension no one else had considered"
+    ],
+    "concerns": [
+      "Klaus's cultural concern about factory workers feeling second-class deserves attention beyond legal text"
+    ]
+  }
+}

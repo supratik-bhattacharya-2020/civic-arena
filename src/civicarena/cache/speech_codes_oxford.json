@@ -1,0 +1,346 @@
+{
+  "topic": "Should universities have speech codes?",
+  "location": "Oxford",
+  "personas": [
+    {
+      "name": "Dr. Eleanor Ashworth",
+      "age": 49,
+      "occupation": "Philosophy lecturer at Balliol College",
+      "background": "Published on Mill and the limits of tolerance. Teaches ethics and political philosophy. Voted against the university's external speaker policy revision.",
+      "core_values": ["academic freedom", "open inquiry", "intellectual courage"],
+      "communication_style": "socratic",
+      "initial_stance": "strongly_against",
+      "location_context": "Has taught at Oxford for 22 years, seen debates shift across generations"
+    },
+    {
+      "name": "Kwame Asante",
+      "age": 21,
+      "occupation": "PPE student and JCR President at Keble",
+      "background": "From Tottenham, first-generation university student. Active in student politics. Organized a campaign after racist graffiti appeared in college.",
+      "core_values": ["dignity", "inclusion", "representation"],
+      "communication_style": "earnest",
+      "initial_stance": "for",
+      "location_context": "First in his family at Oxford, navigating a historically exclusionary institution"
+    },
+    {
+      "name": "Professor Richard Hawthorn",
+      "age": 63,
+      "occupation": "Emeritus professor of law",
+      "background": "Wrote the leading textbook on UK constitutional law. Expert on Article 10 free expression cases. Served on the university's freedom of speech committee.",
+      "core_values": ["rule of law", "proportionality", "precedent"],
+      "communication_style": "precise",
+      "initial_stance": "against",
+      "location_context": "Helped draft Oxford's current external speaker policy"
+    },
+    {
+      "name": "Fatima Al-Rashid",
+      "age": 25,
+      "occupation": "DPhil student in social anthropology",
+      "background": "Researching experiences of Muslim students at UK universities. Hijab-wearing, has experienced both solidarity and hostility on campus.",
+      "core_values": ["safety", "respect", "scholarly rigour"],
+      "communication_style": "reflective",
+      "initial_stance": "for",
+      "location_context": "Studies how institutional culture shapes minority student experience at Oxford"
+    },
+    {
+      "name": "Tom Radcliffe",
+      "age": 34,
+      "occupation": "College communications officer",
+      "background": "Manages public relations for one of the larger colleges. Previously worked in political communications. Deals with speaker controversies regularly.",
+      "core_values": ["institutional reputation", "pragmatism", "transparency"],
+      "communication_style": "diplomatic",
+      "initial_stance": "neutral",
+      "location_context": "Handles media fallout when campus speech controversies go viral"
+    }
+  ],
+  "worldviews": [
+    {
+      "persona_name": "Dr. Eleanor Ashworth",
+      "key_facts": [
+        "Mill's harm principle distinguishes offence from harm",
+        "Oxford's Congregation rejected a restrictive speaker policy in 2023",
+        "FIRE (Foundation for Individual Rights and Expression) ranks UK universities poorly on free expression",
+        "Counter-speech — more speech, not less — is the liberal democratic remedy"
+      ],
+      "supporting_evidence": ["The Socratic method depends on engaging with uncomfortable ideas", "Historical progress came from speech that was considered offensive at the time"],
+      "concerns": ["Speech codes inevitably chill legitimate academic inquiry", "Who defines what's harmful? The committee of the day"],
+      "sources": [
+        {"title": "Mill, On Liberty (1859)", "url": "https://www.gutenberg.org/ebooks/34901", "snippet": "If all mankind minus one were of one opinion, mankind would be no more justified in silencing that one person."},
+        {"title": "FIRE UK university speech rankings", "url": "https://www.thefire.org/uk-rankings", "snippet": "68% of UK university students report self-censoring on campus."}
+      ],
+      "stance_reasoning": "A university exists to test ideas, including bad ones. Speech codes protect comfort at the expense of inquiry. The answer to bad speech is better speech, not silence."
+    },
+    {
+      "persona_name": "Kwame Asante",
+      "key_facts": [
+        "Racist incidents at UK universities increased 60% between 2019-2023",
+        "Only 2% of Oxford professors are Black",
+        "Students who experience harassment are 3x more likely to drop out",
+        "The Equality Act 2010 already prohibits harassment in educational settings"
+      ],
+      "supporting_evidence": ["Free speech absolutism assumes a level playing field that doesn't exist", "Students from marginalized backgrounds bear the cost of 'open debate' disproportionately"],
+      "concerns": ["Without speech codes, institutions signal that some students' presence matters less", "Abstract freedom of expression means nothing if you can't learn without being dehumanised"],
+      "sources": [
+        {"title": "UUK report on racial harassment", "url": "https://www.universitiesuk.ac.uk/racial-harassment", "snippet": "One in four ethnic minority students reported racial harassment at university."},
+        {"title": "Oxford diversity statistics", "url": "https://www.ox.ac.uk/diversity", "snippet": "Black students make up 3% of the undergraduate population."}
+      ],
+      "stance_reasoning": "I'm not asking to ban ideas. I'm asking for a university that doesn't tolerate language designed to make me feel like I don't belong. That's not censorship — it's basic institutional responsibility."
+    },
+    {
+      "persona_name": "Professor Richard Hawthorn",
+      "key_facts": [
+        "Article 10 of the ECHR protects freedom of expression but allows restrictions for rights of others",
+        "The Higher Education (Freedom of Speech) Act 2023 requires UK universities to protect free speech",
+        "Speech codes create legal liability if they conflict with the new Act",
+        "Existing harassment law already covers the most egregious cases"
+      ],
+      "supporting_evidence": ["Well-intentioned codes often have a chilling effect on legitimate scholarship", "The new Act creates a complaints mechanism — enforcement through courts, not codes"],
+      "concerns": ["Codes drafted by committees tend to be overbroad", "Legal conflict between speech codes and the 2023 Act is inevitable"],
+      "sources": [
+        {"title": "Higher Education (Freedom of Speech) Act 2023", "url": "https://www.legislation.gov.uk/ukpga/2023/16", "snippet": "Universities must take steps to secure freedom of speech for staff, students, and visiting speakers."},
+        {"title": "ECHR Article 10 case law", "url": "https://www.echr.coe.int/article-10", "snippet": "Freedom of expression applies to ideas that offend, shock, or disturb."}
+      ],
+      "stance_reasoning": "The legal landscape has shifted. The 2023 Act makes restrictive speech codes a litigation risk. Existing harassment law already covers genuine harm. We should enforce what we have rather than layering on codes that may not survive legal challenge."
+    },
+    {
+      "persona_name": "Fatima Al-Rashid",
+      "key_facts": [
+        "73% of Muslim students report experiencing Islamophobia at UK universities",
+        "Self-censorship among minority students is significantly higher than majority students",
+        "Hostile environment law recognises cumulative impact of microaggressions",
+        "Research shows that inclusive environments improve academic outcomes for all students"
+      ],
+      "supporting_evidence": ["Students who feel unsafe participate less in seminars and supervisions", "Speech codes signal institutional values — their existence matters even if rarely enforced"],
+      "concerns": ["Without clear guidelines, individual tutors decide what's acceptable — inconsistency is worse", "Don't want to police thought, but need to address behaviour"],
+      "sources": [
+        {"title": "NUS Islamophobia on campus report", "url": "https://www.nus.org.uk/islamophobia-report", "snippet": "73% of Muslim students experienced at least one form of Islamophobia during their studies."},
+        {"title": "HEFCE inclusive environment study", "url": "https://www.officeforstudents.org.uk/inclusive-environment", "snippet": "Students reporting a positive learning environment achieved 12% higher degree outcomes."}
+      ],
+      "stance_reasoning": "I'm studying how institutions shape experience. When there are no clear norms, the default favours those who already feel comfortable. Guidelines aren't about banning ideas — they're about establishing a minimum standard of respect so everyone can actually participate in intellectual life."
+    },
+    {
+      "persona_name": "Tom Radcliffe",
+      "key_facts": [
+        "Speaker controversies generate the most media attention and reputational risk for Oxford",
+        "No-platforming incidents declined after clearer speaker policies were introduced",
+        "Applicants increasingly consider campus culture in university choice",
+        "Most speech controversies involve external speakers, not academic discourse"
+      ],
+      "supporting_evidence": ["Clear policies reduce ad hoc decisions that create bigger controversies", "Reputation damage from both censorship and hate speech incidents is costly"],
+      "concerns": ["Any policy will be attacked from both sides", "The goal should be de-escalation, not taking a political position"],
+      "sources": [
+        {"title": "Oxford external speaker policy review", "url": "https://www.ox.ac.uk/speaker-policy", "snippet": "Revised policy reduced speaker cancellations by 40% while maintaining safety requirements."},
+        {"title": "UCAS campus culture survey", "url": "https://www.ucas.com/campus-culture", "snippet": "35% of applicants consider free speech and inclusion policies when choosing a university."}
+      ],
+      "stance_reasoning": "I deal with the fallout either way. What works is clear process — not vague codes or no rules at all. A good policy tells people what to expect, provides a complaints route, and keeps the college out of the papers for the wrong reasons."
+    }
+  ],
+  "rounds": [
+    {
+      "round_number": 1,
+      "round_name": "Opening Statements",
+      "statements": [
+        {
+          "persona_name": "Dr. Eleanor Ashworth",
+          "round_number": 1,
+          "round_name": "Opening Statements",
+          "content": "Mill wrote that silencing an opinion robs humanity — even if it's wrong, we lose the chance to test truth against error. Oxford's purpose is inquiry, and inquiry requires discomfort. FIRE reports 68% of UK students self-censor. Speech codes don't create safety — they create silence. The Socratic method dies the moment we decide some questions can't be asked. Counter-speech, not censorship, is the remedy.",
+          "sources_cited": ["Mill, On Liberty", "FIRE UK rankings"],
+          "stance": "strongly_against"
+        },
+        {
+          "persona_name": "Kwame Asante",
+          "round_number": 1,
+          "round_name": "Opening Statements",
+          "content": "Dr. Ashworth, Mill also wrote about the tyranny of the majority. When racist graffiti appeared in my college, the institution had no policy to respond. One in four ethnic minority students experience racial harassment at university. I'm not asking to ban Mill — I'm asking that Oxford says publicly: dehumanising language is not debate, and it won't be tolerated here. That's not censorship. It's setting a floor.",
+          "sources_cited": ["UUK racial harassment report"],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Professor Richard Hawthorn",
+          "round_number": 1,
+          "round_name": "Opening Statements",
+          "content": "The legal landscape has changed. The 2023 Freedom of Speech Act requires universities to protect free expression and creates enforcement mechanisms. Speech codes that conflict with this Act face legal challenge. Meanwhile, the Equality Act already prohibits harassment. We have tools — we should use them properly rather than creating new codes that may be struck down.",
+          "sources_cited": ["Higher Education Act 2023", "Equality Act 2010"],
+          "stance": "against"
+        },
+        {
+          "persona_name": "Fatima Al-Rashid",
+          "round_number": 1,
+          "round_name": "Opening Statements",
+          "content": "Seventy-three percent of Muslim students experience Islamophobia at university. I've been told in a seminar that my hijab makes me 'incapable of objective thought.' No policy existed to address it. Dr. Ashworth talks about discomfort in inquiry — but there's a difference between intellectual discomfort and being told you don't belong. Clear behavioural guidelines aren't about banning ideas. They're about ensuring everyone can actually participate.",
+          "sources_cited": ["NUS Islamophobia report"],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Tom Radcliffe",
+          "round_number": 1,
+          "round_name": "Opening Statements",
+          "content": "I handle the fallout from both sides. When we have clear processes, controversies are manageable. When we don't, every incident becomes a media crisis. Our revised speaker policy cut cancellations by 40%. The lesson: clarity reduces conflict. I'm not ideological about this — I want a framework that's workable, legally sound, and reduces the chaos that hurts everyone.",
+          "sources_cited": ["Oxford speaker policy review"],
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "round_number": 2,
+      "round_name": "Cross-Examination",
+      "statements": [
+        {
+          "persona_name": "Dr. Eleanor Ashworth",
+          "round_number": 2,
+          "round_name": "Cross-Examination",
+          "content": "Kwame, Fatima — what happened to you is wrong. I won't minimise it. But a speech code wouldn't have stopped that graffiti or that seminar comment. Harassment law already covers both. The question is enforcement, not new rules. Professor Hawthorn is right — the legal framework exists. What's missing is institutional will to use it. Codes are a substitute for courage.",
+          "sources_cited": [],
+          "stance": "strongly_against"
+        },
+        {
+          "persona_name": "Kwame Asante",
+          "round_number": 2,
+          "round_name": "Cross-Examination",
+          "content": "Dr. Ashworth, you say enforcement is the issue — then why has nothing been enforced? The Equality Act has existed since 2010 and harassment on campus has increased 60%. Existing law isn't working. Maybe clear university guidelines would make tutors and administrators actually respond. Fatima's seminar experience shows that without explicit institutional norms, individuals decide what's acceptable — and they decide wrong.",
+          "sources_cited": ["UUK report"],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Professor Richard Hawthorn",
+          "round_number": 2,
+          "round_name": "Cross-Examination",
+          "content": "Kwame makes a fair point about enforcement failure. But the remedy is better enforcement, not additional rules. The 2023 Act now has a complaints mechanism with teeth. Tom, your speaker policy success suggests that process clarity works. Could we extend that approach — clear procedures for reporting and responding — without drafting a speech code per se?",
+          "sources_cited": ["Higher Education Act 2023"],
+          "stance": "against"
+        },
+        {
+          "persona_name": "Fatima Al-Rashid",
+          "round_number": 2,
+          "round_name": "Cross-Examination",
+          "content": "Professor Hawthorn, I take your legal point. But 'better enforcement' of what, exactly? The Equality Act defines harassment broadly. What I'm asking for is institutional guidelines that translate law into practice — what behaviour is expected in seminars, how to report, what happens next. Dr. Ashworth, you teach ethics. Surely you agree that shared norms enable better discourse, not worse?",
+          "sources_cited": [],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Tom Radcliffe",
+          "round_number": 2,
+          "round_name": "Cross-Examination",
+          "content": "Professor Hawthorn, yes — our speaker policy works because it's procedural, not ideological. It says how, not what. Fatima's asking for the same thing in academic settings: a process, not a list of banned words. Dr. Ashworth, would you support a behavioural framework — expected conduct in teaching settings, clear reporting, clear consequences — if it explicitly protected academic inquiry?",
+          "sources_cited": [],
+          "stance": "neutral"
+        }
+      ]
+    },
+    {
+      "round_number": 3,
+      "round_name": "Common Ground",
+      "statements": [
+        {
+          "persona_name": "Dr. Eleanor Ashworth",
+          "round_number": 3,
+          "round_name": "Common Ground",
+          "content": "Tom's distinction between procedural frameworks and ideological codes is useful. I'll concede this: clear behavioural expectations for teaching settings — how to conduct seminars respectfully — don't inherently threaten inquiry. What I oppose is any code that defines which ideas are acceptable. A conduct framework that protects both the right to challenge and the right to participate? I can engage with that.",
+          "sources_cited": [],
+          "stance": "against"
+        },
+        {
+          "persona_name": "Kwame Asante",
+          "round_number": 3,
+          "round_name": "Common Ground",
+          "content": "Dr. Ashworth just moved more than I expected. If a conduct framework explicitly covers dehumanising language in teaching settings, with real reporting and consequences, that addresses 80% of what I'm asking for. I don't need a list of banned topics — I need the institution to say that calling someone's identity into question isn't intellectual inquiry. Professor Hawthorn, if the 2023 Act's complaint mechanism backs this up, we have something.",
+          "sources_cited": [],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Professor Richard Hawthorn",
+          "round_number": 3,
+          "round_name": "Common Ground",
+          "content": "A conduct framework for teaching settings, backed by existing harassment law and the 2023 Act's complaints mechanism, is legally sound. It avoids the speech code label and the litigation risk while addressing Kwame's and Fatima's legitimate concerns. The key is drafting it to regulate conduct, not ideas. I could support this and I'd volunteer to help draft it.",
+          "sources_cited": [],
+          "stance": "neutral"
+        },
+        {
+          "persona_name": "Fatima Al-Rashid",
+          "round_number": 3,
+          "round_name": "Common Ground",
+          "content": "This is exactly what my research shows works — institutional norms that set behavioural expectations without policing thought. Dr. Ashworth's line between conduct and ideas is the right one. My research shows that institutions with clear behavioural guidelines have 12% better outcomes for all students, not just minorities. This isn't about protection — it's about better scholarship.",
+          "sources_cited": ["HEFCE inclusive environment study"],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Tom Radcliffe",
+          "round_number": 3,
+          "round_name": "Common Ground",
+          "content": "A conduct framework for academic settings, modelled on the speaker policy approach: clear process, explicit protections for academic inquiry, reporting procedures, and accountability. Not a speech code — a teaching conduct standard. It protects the institution, the students, and the lecturers. I can communicate this without either side feeling betrayed, which is half the battle.",
+          "sources_cited": [],
+          "stance": "for"
+        }
+      ]
+    },
+    {
+      "round_number": 4,
+      "round_name": "Final Positions",
+      "statements": [
+        {
+          "persona_name": "Dr. Eleanor Ashworth",
+          "round_number": 4,
+          "round_name": "Final Positions",
+          "content": "I remain against speech codes — the term itself signals overreach. But a teaching conduct framework that protects both inquiry and participation? That's different, and this panel convinced me the distinction matters. My condition: academic freedom must be explicitly protected, and no topic can be ruled out of bounds. With those safeguards, I'll support the framework. My vote: against speech codes, for a conduct framework — I'll say neutral.",
+          "sources_cited": [],
+          "stance": "neutral"
+        },
+        {
+          "persona_name": "Kwame Asante",
+          "round_number": 4,
+          "round_name": "Final Positions",
+          "content": "I wanted a speech code. What I'm getting is a conduct framework with real teeth — reporting, consequences, and institutional backing. It's not everything, but it addresses the harm while protecting the open debate that makes Oxford worth being at. Dr. Ashworth's engagement changed my view on what's achievable. My vote: for.",
+          "sources_cited": [],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Professor Richard Hawthorn",
+          "round_number": 4,
+          "round_name": "Final Positions",
+          "content": "The panel found a legally defensible middle ground. A teaching conduct standard backed by existing legislation avoids the pitfalls of speech codes while addressing genuine enforcement gaps. I'll support drafting it. My vote: neutral — on the specific question of speech codes, still against; on the conduct framework we've designed, firmly in support.",
+          "sources_cited": [],
+          "stance": "neutral"
+        },
+        {
+          "persona_name": "Fatima Al-Rashid",
+          "round_number": 4,
+          "round_name": "Final Positions",
+          "content": "A conduct framework is what I actually needed — I just didn't have the language for it. Dr. Ashworth's insistence on protecting inquiry made the proposal stronger, not weaker. This is what institutional change looks like: not getting everything you want, but building something that works for everyone. My vote: for.",
+          "sources_cited": [],
+          "stance": "for"
+        },
+        {
+          "persona_name": "Tom Radcliffe",
+          "round_number": 4,
+          "round_name": "Final Positions",
+          "content": "Best outcome I could have hoped for: a policy direction that both free speech advocates and inclusion advocates can support. It's procedural, it's clear, and it's legally sound. No more ad hoc decisions. My vote: for.",
+          "sources_cited": [],
+          "stance": "for"
+        }
+      ]
+    }
+  ],
+  "final_votes": {
+    "Dr. Eleanor Ashworth": "neutral",
+    "Kwame Asante": "for",
+    "Professor Richard Hawthorn": "neutral",
+    "Fatima Al-Rashid": "for",
+    "Tom Radcliffe": "for"
+  },
+  "dqi_score": {
+    "justification_level": 3,
+    "respect": 2,
+    "constructive_politics": 2,
+    "overall_quality": 10,
+    "summary": "Exceptional deliberation that reframed the question itself. The panel moved from 'speech codes yes/no' to designing a conduct framework that both sides could support. Deep respect between participants with fundamentally different worldviews. Every argument was substantiated with evidence or legal citation.",
+    "highlights": [
+      "Tom's distinction between procedural and ideological frameworks unlocked the impasse",
+      "Dr. Ashworth's intellectual honesty in conceding the conduct/ideas distinction",
+      "Fatima's reframing from protection to participation elevated the entire discussion"
+    ],
+    "concerns": [
+      "Implementation will require careful drafting to maintain the conduct/ideas distinction in practice"
+    ]
+  }
+}
