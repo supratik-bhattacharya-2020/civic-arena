@@ -20,6 +20,10 @@ It's messy, opinionated, and surprisingly insightful. Like a town hall meeting, 
 [![Status Alpha](https://img.shields.io/badge/status-alpha-orange)]()
 [![Tests 43](https://img.shields.io/badge/tests-43_passing-brightgreen)]()
 
+<p align="center">
+  <img src="assets/demo.svg" alt="CivicArena Demo — London plastic bags deliberation" width="100%">
+</p>
+
 ---
 
 ## Try It in 30 Seconds
