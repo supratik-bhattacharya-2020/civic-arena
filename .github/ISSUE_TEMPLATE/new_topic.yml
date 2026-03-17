@@ -1,0 +1,36 @@
+name: New Topic Suggestion
+description: Suggest a new debate topic and location for CivicArena
+labels: ["enhancement", "new-topic"]
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: Topic
+      description: The policy question to debate.
+      placeholder: "Should cities ban cars from downtown areas?"
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: A city or region where this topic is relevant.
+      placeholder: "Amsterdam"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Why this topic?
+      description: Brief context on why this would make an interesting deliberation.
+    validations:
+      required: true
+  - type: textarea
+    id: personas
+    attributes:
+      label: Suggested personas (optional)
+      description: Any specific perspectives you'd like to see represented.
+      placeholder: |
+        - A taxi driver
+        - A cycling advocate
+        - A shop owner on the high street

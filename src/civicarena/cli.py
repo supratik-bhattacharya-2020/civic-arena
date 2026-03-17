@@ -8,13 +8,14 @@ import sys
 
 from rich.console import Console
 from rich.panel import Panel
-from rich.progress import Progress, SpinnerColumn, TextColumn
 from rich.table import Table
 from rich.text import Text
 
 from civicarena.cache import load_cached_result
+from civicarena.export import export_markdown
 from civicarena.orchestrator import run_deliberation
 from civicarena.types import (
+    DeliberationResult,
     DQIScore,
     LLMConfig,
     Persona,
@@ -209,9 +210,19 @@ def _parse_args() -> argparse.Namespace:
     parser.add_argument("--base-url", help="OpenAI-compatible API base URL")
     parser.add_argument("--api-key", help="API key")
     parser.add_argument("--no-stream", action="store_true", help="Disable streaming output")
-    parser.add_argument("--verbose", "-v", action="store_true", help="Longer, more detailed responses")
-    parser.add_argument("--cached", action="store_true", help="Use cached results for demo topics (no API needed)")
+    parser.add_argument(
+        "--verbose", "-v", action="store_true",
+        help="Longer, more detailed responses",
+    )
+    parser.add_argument(
+        "--cached", action="store_true",
+        help="Use cached results for demo topics (no API needed)",
+    )
     parser.add_argument("--demo", "-d", action="store_true", help="Select from demo topics")
+    parser.add_argument(
+        "--export", "-e", metavar="FILE",
+        help="Export transcript to a Markdown file (e.g. --export transcript.md)",
+    )
     return parser.parse_args()
 
 
@@ -252,6 +263,9 @@ def main() -> None:
 
     if cached_result:
         _replay_cached(cached_result, callback)
+        if args.export:
+            out = export_markdown(cached_result, args.export)
+            console.print(f"\n[green]Transcript exported to {out}[/green]")
     else:
         async def _run() -> None:
             result = await run_deliberation(
@@ -269,17 +283,19 @@ def main() -> None:
             if result.dqi_score:
                 _print_dqi_score(result.dqi_score)
 
+            if args.export:
+                out = export_markdown(result, args.export)
+                console.print(f"\n[green]Transcript exported to {out}[/green]")
+
             console.print()
             console.print("[bold cyan]Deliberation complete.[/bold cyan]")
 
         asyncio.run(_run())
 
 
-def _replay_cached(result: "DeliberationResult", callback: RichCallback) -> None:
+def _replay_cached(result: DeliberationResult, callback: RichCallback) -> None:
     """Replay a cached deliberation with Rich output."""
     import time
-
-    from civicarena.types import DeliberationResult
 
     console.print("[dim]Playing cached deliberation...[/dim]\n")
 

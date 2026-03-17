@@ -2,9 +2,23 @@
 name = "civicarena"
 version = "0.1.0"
 description = "Multi-agent civic deliberation platform where AI citizen-agents debate policy issues using structured democratic protocols"
-readme = "CONCEPT.md"
+readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
+keywords = ["multi-agent", "deliberation", "civic-tech", "llm", "ai-debate", "discourse-quality"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Sociology",
+    "Environment :: Console",
+]
 dependencies = [
     "rich>=13.7",
     "httpx>=0.27",
@@ -21,6 +35,11 @@ dev = [
     "pytest-mock>=3.12",
     "ruff>=0.3",
 ]
+
+[project.urls]
+Homepage = "https://github.com/supratik-bhattacharya-2020/civic-arena"
+Repository = "https://github.com/supratik-bhattacharya-2020/civic-arena"
+Issues = "https://github.com/supratik-bhattacharya-2020/civic-arena/issues"
 
 [project.scripts]
 civicarena = "civicarena.cli:main"
